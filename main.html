@@ -9,45 +9,41 @@
 </head>
 <body>
     <form method="post">
-<h1>JobApp Form</h1>
-<label for="name">Name</label>
-<input type="name" required id="Name" placeholder="Name"><br><hr>
+		<h1>JobApp Form</h1>
+		<label for="name">Name</label>
+		<input type="text" required id="Name" placeholder="Name"><br><br>
 
-<label for="email">Email</label>
-<input type="email" required id="Email" placeholder="Email"><br><hr>
-<label for="gender">gender</label>
-<input type="radio" required id="gender" value="gender">Male
-<input type="radio" required id="gender" value="gender">female
-<br>
-<hr>
-<label for="laptop">laptop Brand</label>
-<select name="option" id="laptop">
-    <option value="apple">Apple</option>
-    <option value="Asus">Asus</option>
-    <option value="hp">Hp</option>
-    
-</select>
-<br>
-<hr>
-<label for="age" class="age">Age</label>
-<input type="age" required id="age"><br><hr>
+		<label for="email">Email</label>
+		<input type="email" required id="email" placeholder="Email"><br><br>
 
-<label for="Dob">DOB</label>
-<input type="date" required id="DOB"><br><hr>
-<label for="pasword">passsword</label>
-<input type="password" required id="Password">
-<br><hr>
-<label for="portfollio">Portfollio</label>
-<input type="url" required id="Portfollio">
-<br><hr>
-<button type="submit">Submit button</button>
+		<label for="Gender">Gender</label>
+		<input type="radio"required name="gender">Male
+		<input type="radio"required name="gender">Female <br><br>
 
-    </form>
+		<label for="laptop">Laptop Brand</label>
+		<select name="option" id="laptop">
+			<option value="Apple" id="laptop">Apple</option>
+			<option value="Asus" id="laptop">Asus</option>
+			<option value="HP" id="laptop">HP</option>
+			<option value="hp" id="laptop">HP</option>
+		</select>
+		<br><br>
 
-	
-    <script type="text/javascript" src="./script.js">
-</script>
-</form>
-</body>
+		<label for="age" class="age">Age</label>
+		<input type="number" required id="age"> <br><br>
 
-</html>
+		<label for="dob">DOB</label>
+		<input type="date" required id="dob"> <br><br>
+
+		<label for="password">Password</label>
+		<input type="number" required id="password"> <br><br>
+
+
+		<label for="portfolio">Portfolio</label>
+		<input type="url" required id="portfolio"><br><br>
+
+		
+		<button type="submit">Submit button</button>
+	</form>
+	</body>
+	<html>
